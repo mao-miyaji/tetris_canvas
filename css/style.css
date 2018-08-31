@@ -1,0 +1,41 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+.tetris {
+    width: 604px;
+    margin: auto;
+}
+.div-game {
+    overflow: hidden;
+    float: left;
+}
+canvas {
+    display: block;
+    border: 1px solid #eee;
+}
+.next-block,
+.score {
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #eee;
+    margin-left: 302px;
+    height: 200px;
+}
+.score p {
+    margin-bottom: 30px;
+}
+.next-block canvas {
+    border: none;
+}
+.score canvas {
+    border: none;
+    position: absolute;
+    top: 10px;
+}
+.option {
+    text-align: center;
+    border: 1px solid #eee;
+    margin-left: 302px;
+    height: 196px;
+}
